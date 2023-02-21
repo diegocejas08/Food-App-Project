@@ -61,7 +61,7 @@ const Navbar = () => {
                         <li className=" transform motion-safe:hover:scale-110 font-serif font-bold text-3xl text-green-600 text-right">
                             <Link to={'/'}>Contacto</Link>
                         </li>
-                        <li className={`transform motion-safe:hover:scale-110 font-serif font-bold text-3xl text-green-600 justify-self-end ${visible ? "inline-block" : "hidden"
+                        <li className={`transform motion-safe:hover:scale-110 font-serif font-bold text-3xl text-green-600 justify-self-end ${visible ? "inline-block" : "visible"
                     }`} >
                             <Link to={'/Carrito'}><FaShopify/></Link>
                         </li>
