@@ -1,4 +1,5 @@
 import React from 'react';
+import {FaShopify } from "react-icons/fa";
 
 const Productos = ({ data, addToCart}) =>{
   const { id, nombre, src, precio} = data;
@@ -8,9 +9,11 @@ const Productos = ({ data, addToCart}) =>{
       <h4>
         {nombre}
       </h4>
-      <img src={src} alt="" />
+      <img className='w-max:50' src={src} alt=""/>
       <h5> $ {precio}</h5>
-      <button className='bg-greenveg h-10 w-28 text-white text-2xl font-bold rounded shadow-lg hover:scale-110 hover:bg-orangeveg font-questrial'onClick= {( )=> addToCart (id)}>Agregar</button>
+      <button className='bg-greenveg h-10 w-28 text-white text-lg text-center
+    
+     font-bold rounded shadow-lg hover:scale-110 hover:bg-orangeveg font-questrial'onClick= {( )=> addToCart (id)}><FaShopify/>Agregar</button>
     </div>
   )
 }

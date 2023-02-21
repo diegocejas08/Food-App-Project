@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "./Nav-img/Logo.webp";
 import { useState } from 'react';
+import {FaShopify } from "react-icons/fa";
 
 
 const Navbar = () => {
@@ -50,21 +51,19 @@ const Navbar = () => {
                 </div>
                 <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${visible ? "inline-block" : "hidden"
                     }`} >
-                    <ul className=" items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 ">
-                        <li className="transform motion-safe:hover:scale-110 font-serif font-bold text-4xl text-green-600">
+                    <ul className="grid justify-items items-center justify-center space-y-5 md:flex md:space-x-3 md:space-y-0 block ">
+                        <li className="transform motion-safe:hover:scale-110 font-serif font-bold text-3xl text-green-600 text-right">
                             <Link to={'/Header'}>Home</Link>
                         </li>
-                        <li className="transform motion-safe:hover:scale-110 font-serif font-bold text-4xl text-green-600">
+                        <li className=" transform motion-safe:hover:scale-110 font-serif font-bold text-3xl text-green-600 text-right">
                             <Link to={'/'}>Nosotros</Link>
                         </li>
-                        {/* <li className="transform motion-safe:hover:scale-110  font-serif font-bold text-4xl text-green-600">
-                            <Link to={'/About'}>Menú</Link>
-                        </li> */}
-                        {/* <li className="transform motion-safe:hover:scale-110  font-serif font-bold text-4xl text-green-600">
-                            <Link to={'/'}>Galería</Link>
-                        </li> */}
-                        <li className="transform motion-safe:hover:scale-110 font-serif font-bold text-4xl text-green-600">
+                        <li className=" transform motion-safe:hover:scale-110 font-serif font-bold text-3xl text-green-600 text-right">
                             <Link to={'/'}>Contacto</Link>
+                        </li>
+                        <li className={`transform motion-safe:hover:scale-110 font-serif font-bold text-3xl text-green-600 justify-self-end ${visible ? "inline-block" : "hidden"
+                    }`} >
+                            <Link to={'/Carrito'}><FaShopify/></Link>
                         </li>
                     </ul>
                 </div>

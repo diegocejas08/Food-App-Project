@@ -1,24 +1,27 @@
 import { TYPES } from "./CarritoAction";
+import pelotitas from "../Assets/ParaCart/pelotitas.webp";
+import comboensalada from   '../Assets/ParaCart/comboensalada.webp';
 
 export const cartInitialState = {
     productos: [
         {
             id: 1,
-            nombre: "Menu Falafel",
+            nombre: "18 pelotitas",
             precio: 40,
-            // src: xxx,
+            src: {pelotitas} ,
         },
         {
             id: 2,
-            nombre: "Menu lafel",
+            nombre: "Combo 1",
             precio: 20,
-            // src:   xxx,
+            src: {comboensalada},
         },
         {
             id: 3,
             nombre: "Menu fel",
             precio: 30,
-            // src: xx,
+            // src: 
+          
         },
     ],
     cart: [],
