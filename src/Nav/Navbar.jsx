@@ -52,19 +52,19 @@ const Navbar = () => {
                     }`} >
                     <ul className=" items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 ">
                         <li className="transform motion-safe:hover:scale-110 font-serif font-bold text-4xl text-green-600">
-                            <Link to={'/'}>Home</Link>
+                            <Link to={'/Header'}>Home</Link>
                         </li>
                         <li className="transform motion-safe:hover:scale-110 font-serif font-bold text-4xl text-green-600">
-                            <Link to={'/About'}>Nosotros</Link>
+                            <Link to={'/'}>Nosotros</Link>
                         </li>
-                        <li className="transform motion-safe:hover:scale-110  font-serif font-bold text-4xl text-green-600">
-                            <Link to={'/'}>Menú</Link>
-                        </li>
-                        <li className="transform motion-safe:hover:scale-110  font-serif font-bold text-4xl text-green-600">
+                        {/* <li className="transform motion-safe:hover:scale-110  font-serif font-bold text-4xl text-green-600">
+                            <Link to={'/About'}>Menú</Link>
+                        </li> */}
+                        {/* <li className="transform motion-safe:hover:scale-110  font-serif font-bold text-4xl text-green-600">
                             <Link to={'/'}>Galería</Link>
-                        </li>
+                        </li> */}
                         <li className="transform motion-safe:hover:scale-110 font-serif font-bold text-4xl text-green-600">
-                            <Link to={'/Contact'}>Contacto</Link>
+                            <Link to={'/'}>Contacto</Link>
                         </li>
                     </ul>
                 </div>
