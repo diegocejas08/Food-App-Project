@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
@@ -18,8 +18,10 @@ const Header = () => {
     return (
         <>
 
+
                 <header>
-                <Navbar />
+                         
+
                 <div className="max-w-[1400px] h-[780px] w-full m-auto py-16 px4 relative group"> 
                 <Carousel slideInterval={5000} leftControl="left" rightControl="right">
                 <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
