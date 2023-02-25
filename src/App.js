@@ -8,6 +8,8 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Carrito from "./Carrito/Carrito";
+// import { FaShopify } from "react-icons/fa";
+
 
 function App() {
   return (
@@ -18,12 +20,11 @@ function App() {
           <Route path="/" element={<About />} />
           <Route path="/" element={<Contact />} />
           <Route path="/" element={<Header />} />
-          {/* <Route path='/About' element={<Menú/>}/> */}
+          <Route path="/Carrito" element={<Carrito/>}/>
         </Routes>
       </BrowserRouter>
       <Header />
         <About />
-        <Carrito />
     </>
   );
 }

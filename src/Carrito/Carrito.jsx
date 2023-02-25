@@ -1,10 +1,10 @@
-// import { type } from 'os';
 import React, { useReducer } from 'react';
 import { TYPES } from './CarritoAction';
 import { cartInitialState, cartReducer } from './CartReducer';
 import Productos from './Productos';
 import ItemCarrito from './ItemCarrito';
-import { FaShopify } from "react-icons/fa";
+
+
 
 function Carrito() {
     const [state, dispatch] = useReducer(cartReducer, cartInitialState)
@@ -25,7 +25,8 @@ function Carrito() {
 
     return (
         <div>
-            <div className='font-questrial'>FaShopify
+            <div className=''>
+                
             </div>
             <h2 className='font-questrial'> Productos</h2>
             <div>
