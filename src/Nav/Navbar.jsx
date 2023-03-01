@@ -9,7 +9,7 @@ const Navbar = () => {
     const [visible, setVisible] = useState(false)
     return (
 
-        <nav className=" bg-yellow-100" >
+        <nav className="bg-yellow-100 sticky top-0" >
 
             <div className=" flex justify-between items-center h-44 relative shadown-sm px-8 xl:px-0 ">
                 <img className="ml-4 h-28 md:h-40" src={Logo} alt="" />
@@ -51,17 +51,17 @@ const Navbar = () => {
                 </div>
                 <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${visible ? "inline-block" : "hidden"
                     }`} >
-                    <ul className="grid justify-items items-center justify-center space-y-5 md:flex md:space-x-3 md:space-y-0 block ">
-                        <li className="transform motion-safe:hover:scale-110 font-serif font-bold text-3xl text-green-600 text-right">
+                    <ul className="grid justify-items items-center justify-center space-y-5 md:flex md:space-x-10 md:space-y-0 block ">
+                        <li className="transform motion-safe:hover:scale-110 font-questrial font-bold text-3xl text-green-600 text-right">
                             <Link to={'/Header'}>Home</Link>
                         </li>
-                        <li className=" transform motion-safe:hover:scale-110 font-serif font-bold text-3xl text-green-600 text-right">
+                        <li className=" transform motion-safe:hover:scale-110 font-questrial font-bold text-3xl text-green-600 text-right">
                             <Link to={'/'}>Nosotros</Link>
                         </li>
-                        <li className=" transform motion-safe:hover:scale-110 font-serif font-bold text-3xl text-green-600 text-right">
+                        <li className=" transform motion-safe:hover:scale-110 font-questrial font-bold text-3xl text-green-600 text-right">
                             <Link to={'/'}>Contacto</Link>
                         </li>
-                        <li className={`transform motion-safe:hover:scale-110 font-serif font-bold text-3xl text-green-600 justify-self-end ${visible ? "inline-block" : "visible"
+                        <li className={`transform motion-safe:hover:scale-110 font-questrial font-bold text-3xl text-green-600 justify-self-end ${visible ? "inline-block" : "visible"
                     }`} >
                             <Link to={'/Carrito'}><FaShopify/></Link>
                         </li>
