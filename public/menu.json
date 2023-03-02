@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "image": "../Assets/json/falafel.webp",
+      "nombre": "Veggie Falafel",
+      "descripcion": "Exquisito sándwich de falafel, elaborado a base de garbanzo, y vegetales (al gusto), dentro de pan arabe, elaborado y honeado en nuestra casa.",
+      "precio": "$1,500",
+      "logo":"../Assets/logoveggie.jpg"
+    },
+    {
+      "id": 2,
+      "image": "../Assets/json/vsabij.webp",
+      "nombre": "Veggie Sabij",
+      "descripcion": "Exquisito sándwich, elaborado a base de berenjenas, vegetales (al gusto), dentro de pan arabe, elaborado y honeado en nuestra casa.",
+      "precio": "$1,500",
+      "logo":"../Assets/logoveggie.jpg"
+    },
+    {
+      "id": 3,
+      "image": "../Assets/json/vhummus.webp",
+      "nombre": "Veggie Hummus",
+      "descripcion": "Deliciosa crema de puré de garbanzos cocidos con zumo de limón, con pasta de tahina (semillas de sésamo molidas, con líquido y sal) y aceite de oliva.",
+      "precio": "$1,500",
+      "logo":"../Assets/logoveggie.jpg"
+    },
+    {
+      "id": 4,
+      "image": "../Assets/json/vensalada.webp",
+      "nombre": "Veggie Ensalada",
+      "descripcion": "Deliciosa y fresca ensalada de la casa, con lechuga, tomates, zanahoria y mas. Viene acompañada con un exquisitos dressing de de nuestras salsas especiales.",
+      "precio": "$1,200",
+      "logo":"../Assets/logoveggie.jpg"
+    },
+    {
+      "id": 5,
+      "image": "../Assets/json/vbomba.webp",
+      "nombre": "Falafel Bowl",
+      "descripcion": "Exquisitas bolitas de falafel hechas con garbanzo (18 unidades)",
+      "precio": "$1,300",
+      "logo":"../Assets/logoveggie.jpg"
+    },
+    {
+      "id": 6,
+      "image": "../Assets/json/vpelotitas.webp",
+      "nombre": "Porción de Pelotitas de Falafel",
+      "descripcion": "Exquisitas bolitas de falafel hechas con garbanzo (12 unidades)",
+      "precio": "$800",
+      "logo":"../Assets/logoveggie.jpg"
+    },
+    {
+        "id": 7,
+        "image": "../Assets/json/vpan.webp",
+        "nombre": "Pan Pita Artesanal",
+        "descripcion": "Exquisito pan árabe, elaborado y horneado en nuestra casa",
+        "precio": "300",
+        "logo":"../Assets/logoveggie.jpg"
+      },
+      {
+        "id": 8,
+        "image": "../Assets/json/vjugos.webp",
+        "nombre": "Jugos Naturales",
+        "descripcion": "Limonada y Menta, Manzana y Jengibre, Pomelo y Frutos Rojos",
+        "precio": "$600",
+        "logo":"../Assets/logoveggie.jpg"
+      }
+  ]
