@@ -8,6 +8,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Carrito from "./Carrito/Carrito";
+import Footer from "./components/Footer";
 // import { FaShopify } from "react-icons/fa";
 
 
@@ -25,6 +26,8 @@ function App() {
       </BrowserRouter>
       <Header />
         <About />
+        <Contact />
+        <Footer/>
     </>
   );
 }
