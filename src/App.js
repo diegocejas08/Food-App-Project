@@ -11,25 +11,22 @@ import Carrito from "./Carrito/Carrito";
 import Footer from "./components/Footer";
 // import { FaShopify } from "react-icons/fa";
 
-
 function App() {
   return (
     <>
       <BrowserRouter>
-      <Navbar/>
+        <Navbar />
         <Routes>
+          <Route path="/Header" element={<Header />} />
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
-          <Route path="/" element={<Header />} />
-          <Route path="/Carrito" element={<Carrito/>}/>
+          <Route path="/Carrito" element={<Carrito />} />
         </Routes>
       </BrowserRouter>
-      <Header />
-        <About />
-        <Contact />
-        <Footer/>
+      <About />
+      <Contact />
+      <Footer />
     </>
-   
   );
 }
 
