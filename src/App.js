@@ -16,10 +16,10 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar />
+      <Navbar/>
         <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="/" element={<Contact />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Contact" element={<Contact />} />
           <Route path="/" element={<Header />} />
           <Route path="/Carrito" element={<Carrito/>}/>
         </Routes>
@@ -29,6 +29,7 @@ function App() {
         <Contact />
         <Footer/>
     </>
+   
   );
 }
 
