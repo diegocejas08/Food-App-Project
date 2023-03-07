@@ -5,7 +5,7 @@ import franq from './About-img/franquicia.webp';
 
 const About = () => {
     return (
-        <><section className='mt-40 mb-80 h-80 bg-orangeveg md:mb-60 grid place-content-center'>
+        <><section id='about' className='mt-40 mb-80 h-80 bg-orangeveg md:mb-60 grid place-content-center'>
                 <div className='w-9/12 mx-auto md:w-8/12 md:flex'>
                     <div className='bg-white -mb-10 border-2 border-orangeveg place-self-center p-4 grid place-content-center md:h-full md:w-96 md:border-0'>
                         <div className='mb-8'>

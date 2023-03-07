@@ -25,11 +25,8 @@ function Carrito() {
 
     return (
         <div>
-            <div className=''>
-                
-            </div>
             <h2 className='font-questrial'> Productos</h2>
-            <div>
+            <div className='flex'>
                 {productos.map(productos => <Productos key={productos.id} data={productos} addToCart={addToCart} />)}
             </div>
             <h2 className='font-questrial'> Carrito</h2>
