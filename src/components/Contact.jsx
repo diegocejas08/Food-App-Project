@@ -3,7 +3,7 @@ import falafel from './About-img/falafel.webp';
 
 const Contact = () => {
     return (
-        <div className='bg-orangeveg md:grid grid-rows-5 grid-cols-5 content-center w-3/4 mx-auto p-10'>
+        <div id='contact' className='bg-orangeveg md:grid grid-rows-5 grid-cols-5 content-center w-3/4 mx-auto p-10'>
                 <div className='col-span-2 row-span-4 justify-self-center self-center'>
                     <h2 className='text-white font-questrial text-4xl font-bold mb-10 text-center md:mb-14'>¡Contáctanos!</h2>
                     <p className='text-white font-questrial text-2xl mb-3 text-center md:text-3xl'>¿Querés hablar con nosotros?</p>
