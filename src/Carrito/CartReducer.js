@@ -22,15 +22,21 @@ export const cartInitialState = {
         },
         {
             id: 4 ,
-            nombre: "Combo Sabij Veggie",
+            nombre: "Combo Sabij",
             precio: 800,
             src: "https://i.ibb.co/3hfsmWk/sabij.webp",
         },
         {
             id: 5,
-            nombre: "Falafel Bowl Veggie",
+            nombre: "Falafel Bowl",
             precio: 1500,
             src: "https://i.ibb.co/80WjHHS/combofalafel.webp",
+        },
+        {
+            id: 6,
+            nombre: "Ensalada Bowl",
+            precio: 1100,
+            src: "https://i.ibb.co/V2dzhg2/ensalada.webp",
         },
     ],
     cart: [],

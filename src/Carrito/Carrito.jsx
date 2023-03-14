@@ -24,10 +24,10 @@ function Carrito() {
     const clearCart = () => { dispatch ({ type: TYPES.CLEAR_CART})};
 
     return (
-        <div className='md:grid md:grid-cols-3 md:gap-2 md:w-auto'>
+        <div className='md:grid md:grid-cols-3 md:gap-2'>
             <div className='md:col-start-1 md:col-end-3'>
                 <h2 className='font-questrial text-3xl font-bold text-center mt-10 text-gray-700 bg-greenveg text-white h-14 grid content-center'> Productos</h2>
-                <div className='flex flex-col md:flex-row md:gap-2'>
+                <div className='flex-wrap flex md:flex-row md:gap-2'>
                 {productos.map(productos => <Productos key={productos.id} data={productos} addToCart={addToCart} />)}
                 </div>
             </div>
@@ -38,7 +38,7 @@ function Carrito() {
                     <ItemCarrito key={item.id}
                         data={item}
                         deleteFromCart={deleteFromCart} />)}
-                <button className='bg-greenveg h-10 w-28 text-white text-md font-bold rounded shadow-lg hover:scale-110 hover:bg-orangeveg'onClick={clearCart}> Vaciar Carrito</button>
+                <button className='md:mt-4 bg-greenveg h-10 w-28 text-white text-md font-bold rounded shadow-lg hover:scale-110 hover:bg-orangeveg'onClick={clearCart}> Vaciar Carrito</button>
                 </div>
             </div>
         </div>
