@@ -1,27 +1,36 @@
 import { TYPES } from "./CarritoAction";
-import pelotitas from "../Assets/ParaCart/pelotitas.webp";
-import comboensalada from   '../Assets/ParaCart/comboensalada.webp';
 
 export const cartInitialState = {
     productos: [
         {
             id: 1,
-            nombre: "18 pelotitas",
-            precio: 40,
-            src: {pelotitas} ,
+            nombre: "Combo Falafel",
+            precio: 1000,
+            src: "https://i.ibb.co/Qr8dwLQ/Falafelbowl.webp",
         },
         {
             id: 2,
-            nombre: "Combo 1",
-            precio: 20,
-            src: {comboensalada},
+            nombre: "Combo Veggie",
+            precio: 1200,
+            src: "https://i.ibb.co/XDDmPbk/comboveggie.webp",
         },
         {
             id: 3,
-            nombre: "Menu fel",
-            precio: 30,
-            // src: 
-          
+            nombre: "Combo Hummus",
+            precio: 1250,
+            src: "https://i.ibb.co/KGRcJpf/comohummus.webp", 
+        },
+        {
+            id: 4 ,
+            nombre: "Combo Sabij Veggie",
+            precio: 800,
+            src: "https://i.ibb.co/3hfsmWk/sabij.webp",
+        },
+        {
+            id: 5,
+            nombre: "Falafel Bowl Veggie",
+            precio: 1500,
+            src: "https://i.ibb.co/80WjHHS/combofalafel.webp",
         },
     ],
     cart: [],
